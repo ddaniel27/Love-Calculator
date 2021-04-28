@@ -1,0 +1,1 @@
+document.getElementById("my-action-button").onclick = () => {document.getElementById("result").innerHTML = Math.round(Math.random() *100).toString() +"%"}

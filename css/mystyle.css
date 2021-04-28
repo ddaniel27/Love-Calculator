@@ -1,0 +1,50 @@
+body{
+    text-align: center;
+    background-color: #db5360;
+}
+
+#result{
+    background-color: pink;
+    border: 3px solid red;
+    margin: auto;
+    margin-top: 30px;
+    height: 48px;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 20px;
+    padding-top: 25px;
+    text-align: center;
+    width: 30%;
+}
+#text-field{
+    background-color: #db5360;
+}
+
+.act-btn{
+    background-color: red;
+    border: 1px solid #db5360;
+    border-radius: 50%;
+    color:#FFF;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 20px;
+    outline: none;
+    padding: 20px;
+}
+.img-styled{
+    border-radius: 5%;
+}
+@media(max-width: 680px){
+    .img-styled{
+        width: 80%;
+    }
+}
+.text-inputs{
+    background-color: pink;
+    border: 5px solid red;
+    border-radius: 50%;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 20px;
+    margin: 15px 5%;
+    padding: 20px;
+    outline: none;
+    text-align: center;
+}
